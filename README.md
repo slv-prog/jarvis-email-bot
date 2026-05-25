@@ -17,7 +17,8 @@ emails, and delivers a clean digest to Telegram every morning.
 - Telegram Bot API
 
 ## Demo
-[Add your Telegram screenshot here]
+<img width="938" height="1028" alt="image" src="https://github.com/user-attachments/assets/63c67ad1-e6ab-447d-886d-5065b029ce30" />
+
 
 ## Setup
 1. Clone this repo
