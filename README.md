@@ -47,4 +47,4 @@ Built from scratch in under 2 weeks with no prior experience.
 ![Jarvis Earnings Report](demo.png)
 
 ## Built By
-Selva — AI Automation Developer
+HustleFlow — AI Automation Developer
