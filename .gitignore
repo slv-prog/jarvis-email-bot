@@ -1,0 +1,7 @@
+.env
+credentials.json
+token.json
+jarvis_memory.json
+jarvis_earnings.json
+__pycache__/
+*.pyc
