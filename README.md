@@ -43,5 +43,8 @@ Built from scratch in under 2 weeks with no prior experience.
 3. Add your API keys to .env file
 4. Run: python jarvis_listener.py
 
+## Demo
+![Jarvis Earnings Report](demo.png)
+
 ## Built By
 Selva — AI Automation Developer
