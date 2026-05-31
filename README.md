@@ -4,14 +4,13 @@ A fully functional voice-controlled AI assistant built with Python and Claude AI
 Built from scratch in under 2 weeks with no prior experience.
 
 ## What Jarvis Does
-- Reads and summarises Gmail inbox daily using Claude AI
+- Reads and summarises Gmail inbox on command using Claude AI
 - Accepts text and voice commands via Telegram
 - Searches the web and summarises results
 - Remembers context across sessions
 - Scans for freelance job opportunities
 - Writes Upwork proposals in seconds
 - Tracks earnings toward income goals
-- Sends clean morning briefings automatically
 
 ## Tech Stack
 - Python 3
@@ -36,15 +35,33 @@ Built from scratch in under 2 weeks with no prior experience.
 | jarvis_voice.py | Local voice transcription |
 | jarvis_voice_trigger.py | Voice command pipeline |
 
-## Setup
+## How To Run
 1. Clone this repo
-2. Install dependencies:
-   pip install anthropic google-auth google-auth-oauthlib google-api-python-client python-dotenv requests faster-whisper sounddevice soundfile numpy beautifulsoup4 google-search-results
-3. Add your API keys to .env file
-4. Run: python jarvis_listener.py
+2. Install dependencies: pip install anthropic google-auth google-auth-oauthlib google-api-python-client python-dotenv requests faster-whisper sounddevice soundfile numpy beautifulsoup4 google-search-results
+3. Add your API keys to .env file:
+   ANTHROPIC_API_KEY=your_key
+   TELEGRAM_TOKEN=your_token
+   TELEGRAM_CHAT_ID=your_chat_id
+   SERPAPI_KEY=your_key
+4. Run the listener: python jarvis_listener.py
+5. For voice commands open a second terminal: python jarvis_voice_trigger.py
+
+## Available Commands
+**Email:** summarise my emails
+
+**Jobs:** scan jobs, proposal for [job details], find me jobs for [skill]
+
+**Business:** write me a fiverr gig for [service], write me an upwork proposal for [job]
+
+**Search:** search [anything], raw search [anything]
+
+**Memory:** remember [anything], what do you remember, forget everything
+
+**Earnings:** earned $[amount] from [client] for [description], my earnings report, set goal [amount]
 
 ## Demo
 ![Jarvis Earnings Report](demo.png)
 
 ## Built By
 HustleFlow — AI Automation Developer
+GitHub: github.com/slv-prog
